@@ -1,3 +1,4 @@
 // console.log("hello world");
-const pi = 3.14
-console.log(pi*6) 
+let firstName = "harshit"
+firstName = firstName.slice(1,5);
+console.log(firstName);
