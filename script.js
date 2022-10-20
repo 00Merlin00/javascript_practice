@@ -1,12 +1,5 @@
-// // console.log("hello world");
-// let firstName = "harshit"
-// firstName = firstName.slice(1,5);
-// console.log(firstName);
+let fruits = ["mango","apple","banana"]; 
 
-let num = 15;
+fruits.push("grapes");
 
-if (num%2===0) {
-    console.log ("even")
-}else {
-    console.log ("odd")
-}
+console.log(fruits)
