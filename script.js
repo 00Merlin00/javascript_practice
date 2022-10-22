@@ -1,5 +1,10 @@
-let fruits = ["mango","apple","banana"]; 
+const fruits = ["mango","apple","banana","grapes"]
 
-fruits.push("grapes");
+let i = 0;
 
-console.log(fruits)
+while ( i<fruits.length){
+
+console.log(
+    fruits[i]
+); i++;
+}
