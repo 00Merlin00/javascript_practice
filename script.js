@@ -1,5 +1,10 @@
-const person = { name:"Harshit",age:"22",hobbies:["sleeping","cooking","music"]};
+// nested destructuring
 
-person.gender = "male";
+const users = [
+    {userId: 1, firstName: "harshit", gender:'male'},
+    {userId: 2, firstName: "mohit" , gender: "male"},
+    {userId: 3, firstName: "nitish" , gender: "male"},
+]
 
-console.log( person);
+const [ user1, user2, user3] = users;
+console.log(user1);
