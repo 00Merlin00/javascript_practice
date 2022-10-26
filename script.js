@@ -1,7 +1,7 @@
 function solutionMaking ( x,y) {
     
 
-   return 
+   return  x+y;
 }
 
 const solving = solutionMaking(3,5);
