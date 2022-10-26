@@ -1,11 +1,13 @@
-function solutionMaking ( x,y) {
-    
-
-   return  x+y;
+function judging(array,x) {
+ for (let i=0; i<array.length; i++) {
+ if (array[i]===x ){
+   return i;
+ }
+ 
+}
+return -1;
 }
 
-const solving = solutionMaking(3,5);
+const solving = judging("");
 
-
-
-console.log (solving);
+console.log(solving);
