@@ -1,7 +1,6 @@
-const fC = function(x) {
-  return x[4];
+const sTN = (x,y,z) => {
+  return x+y+z;
 }
 
-const string = "beloved";
 
-console.log(fC(string));
+console.log ( sTN(1,3,5));
