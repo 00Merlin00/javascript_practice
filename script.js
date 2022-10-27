@@ -1,13 +1,11 @@
-function judging(array,x) {
- for (let i=0; i<array.length; i++) {
- if (array[i]===x ){
-   return i;
- }
- 
-}
-return -1;
-}
+function search (array,target){
 
-const solving = judging("");
+  for( let i = 0 ; i<array.length; i++){
+   if ( array[i] === target ){
+    return i;
+   }
+  }
+  return -1;
+} 
 
-console.log(solving);
+console.log ( search ([1,2,3,4,5,6,], 8));
