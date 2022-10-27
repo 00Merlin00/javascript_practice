@@ -1,11 +1,7 @@
-function search (array,target){
+const fC = function(x) {
+  return x[4];
+}
 
-  for( let i = 0 ; i<array.length; i++){
-   if ( array[i] === target ){
-    return i;
-   }
-  }
-  return -1;
-} 
+const string = "beloved";
 
-console.log ( search ([1,2,3,4,5,6,], 8));
+console.log(fC(string));
