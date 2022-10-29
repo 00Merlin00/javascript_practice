@@ -1,5 +1,11 @@
-const sTN = (x,y,z) =>  x+y+z; 
+function myFunc (a) {
+    console.log ( "welcome my friend" ) ;
+    a()
+}
 
-function sTN(x,y,z) {}
+function myFunc2 () {
+    console.log ( "understanding my flaws")
+}
 
-console.log ( sTN(1,3,5));
+myFunc(myFunc2);
+
