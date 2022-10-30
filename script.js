@@ -1,11 +1,9 @@
-function myFunc (a) {
-    console.log ( "welcome my friend" ) ;
-    a()
+const numbers = [ 1,3,2,6,4,8];
+
+function isEven (number){
+    return number % 2 === 0 ;
 }
 
-function myFunc2 () {
-    console.log ( "understanding my flaws")
-}
+const newArray = numbers.filter(isEven);
 
-myFunc(myFunc2);
-
+console.log( newArray);
