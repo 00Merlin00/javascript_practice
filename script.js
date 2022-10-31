@@ -1,11 +1,13 @@
-const userCart = [
-{productId : 1 , productName : "mobile" , price : 12000 },
-{productId : 2 , productName : "laptop" , price : 22000 },
-{productId : 3 , productName : "tv" , price : 15000 }
+const products = [
+    { poductId : 1, productName: "p1", price: 300},
+    { poductId : 2, productName: "p2", price: 3000},
+    { poductId : 3, productName: "p3", price: 200},
+    { poductId : 4, productName: "p4", price: 8000},
+    { poductId : 5, productName: "p5", price: 500}
 ]
 
-const totalPrice = userCart.reduce(function(accumulator,currentvalue){
-return accumulator + currentvalue.price
-},0)
+products.sort((a,b)=>{
+    return a.price - b.price
+});
 
-console.log(totalPrice);
+console.log( products);
