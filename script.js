@@ -20,4 +20,4 @@ const person3 = {
     about : personInfo 
 }
 
-console.log(person2.about());
+person3.about();
