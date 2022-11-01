@@ -1,11 +1,23 @@
-const person = new Map();
-person.set("firstName", "mohit")
-person.set("age", 22)
-
-
-// console.log(person);
-// console.log(person.get("mohit"))
-
-for(let value of person.values()){
-    console.log(value);
+function personInfo(){
+    console.log( `name is ${this.firstName} and age is ${this.age}`);
 }
+
+const person1 = {
+    firstName : "harshit",
+    age : 8,
+    about : personInfo 
+}
+
+const person2 = {
+    firstName : "mohit" ,
+    age : 21 ,
+    about : personInfo 
+}
+
+const person3 = {
+    firstName : "kittu" ,
+    age : 24 ,
+    about : personInfo 
+}
+
+console.log(person2.about());
