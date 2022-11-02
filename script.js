@@ -1,23 +1,24 @@
-function personInfo(){
-    console.log( `name is ${this.firstName} and age is ${this.age}`);
+class Animals {
+    constructor( name , age){
+        this.name = name ;
+        this.age = age 
+    }
+
+    eat (){
+        return `${this.name} is eating ` ;
+    }
+
+    isSuperCute (){
+        return this.age <= 1;
+    }
+
+    isCute (){
+        return true ;
+    }
 }
 
-const person1 = {
-    firstName : "harshit",
-    age : 8,
-    about : personInfo 
-}
+const animal1 = new Animals("tom" , 1);
+console.log(animal1);
 
-const person2 = {
-    firstName : "mohit" ,
-    age : 21 ,
-    about : personInfo 
-}
-
-const person3 = {
-    firstName : "kittu" ,
-    age : 24 ,
-    about : personInfo 
-}
-
-person3.about();
+console.log(animal1.isCute());
+console.log(animal1.isSuperCute());
