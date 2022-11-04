@@ -42,6 +42,7 @@ const tommy = new Dog( "tommy", 3, 45);
 
 console.log(tommy);
 
+console.log(tommy.eat());
 
 console.log(tommy.run());
 
