@@ -1,1 +1,3 @@
-part 2
+console.log(firstName);
+
+let firstName = "Mohit";
