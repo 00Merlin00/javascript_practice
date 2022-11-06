@@ -1,6 +1,17 @@
-function cubeFind(x){
-    return x**3 ;
+
+function func(){
+    let value = 0 ;
+    return function(){
+     if ( value<1){
+     console.log("hello dear");
+     value++ ;
+     } else {
+        console.log("my second time")
+     }
+  }
 }
 
+const myFunc = func()
 
-console.log( cubeFind(3) );
+myFunc()
+myFunc()
