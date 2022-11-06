@@ -1,11 +1,6 @@
-function hello (x) {
-    const a = "varA" ;
-    const b = "varB" ;
-    return function(){
-        console.log(a,b,x);
-    }
+function cubeFind(x){
+    return x**3 ;
 }
 
-const ans = hello(arg);
 
-ans() ;
+console.log( cubeFind(3) );
