@@ -14,4 +14,7 @@ function func(){
 const myFunc = func()
 
 myFunc()
+
+
+const myNewFunc = myFunc()
 myFunc()
