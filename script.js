@@ -1,20 +1,5 @@
+// const mainHeading = document.getElementById("main-heading");
+const mainHeading = document.getElementById("main-heading");
 
-function func(){
-    let value = 0 ;
-    return function(){
-     if ( value<1){
-     console.log("hello dear");
-     value++ ;
-     } else {
-        console.log("my second time")
-     }
-  }
-}
-
-const myFunc = func()
-
-myFunc()
-
-
-const myNewFunc = myFunc()
-myFunc()
+console.log(mainHeading.textContent);
+mainHeading.style.color=  ;

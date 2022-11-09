@@ -101,7 +101,7 @@ a {
 }
 
 .section-signup {
-    margin-top: 5rem;
+    margin: 5rem auto;
     text-align: center;
     background: rgb(240,240,240);
     border-radius: 10px;
@@ -131,4 +131,13 @@ a {
 
 .signup-form textarea {
     width: 100%;
+}
+
+.signup-btn {
+    background: rgb(57,47,34);
+    color: wheat;  
+    padding: 1rem 2rem; 
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
 }
