@@ -8,4 +8,4 @@
 // console.log(inputElement.getAttribute("type")); 
 
 const navItems = document.getElementsByClassName("nav-item");
-console.log(typeof navItems);
+console.log(Array.isArray (navItems));
