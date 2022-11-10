@@ -1,5 +1,11 @@
-// const mainHeading = document.getElementById("main-heading");
-const mainHeading = document.getElementById("main-heading");
+// const link = document.querySelector("a");
+// console.log(link.getAttribute("href"));
+// // link.setAttribute("href","https://google.co.in");
 
-console.log(mainHeading.textContent);
-mainHeading.style.color=  ;
+
+// const inputElement = document.querySelector(".form-todo input");
+
+// console.log(inputElement.getAttribute("type")); 
+
+const navItems = document.getElementsByClassName("nav-item");
+console.log(typeof navItems);
