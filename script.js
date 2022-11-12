@@ -27,4 +27,19 @@
 // const show = document.getElementsByClassName("nav-item");
 // console.log(show[0].children[1].innerHTML)
 
+// const  reverseString =(a)=>{
+// return a.split(" ").reverse()
+// }
+// console.log(reverseString("i love kittu"))
 
+// let navItems = document.querySelectorAll("a");
+// console.log(navItems);
+// for(let navItem of navItems){
+//         navItem.style.background = "#fff"
+//         navItem.style.color = "yellow" ;
+//         navItem.style.fontWeight = "bold" ;
+// }
+
+const headline = document.querySelector(".headline");
+
+console.log(headline.innerHTML);
