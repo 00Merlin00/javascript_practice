@@ -43,5 +43,5 @@
 // 
 const rootNode = document.getRootNode();
 const htmlElementNode = rootNode.childNodes[0];
-console.log(htmlElementNode );
+console.log(htmlElementNode.childNodes);
 
