@@ -40,6 +40,8 @@
 //         navItem.style.fontWeight = "bold" ;
 // }
 
-const headline = document.querySelector(".headline");
+// 
+const rootNode = document.getRootNode();
+const htmlElementNode = rootNode.childNodes[0];
+console.log(htmlElementNode );
 
-console.log(headline.innerHTML);
