@@ -41,7 +41,10 @@
 // }
 
 // 
-const rootNode = document.getRootNode();
-const htmlElementNode = rootNode.childNodes[0];
-console.log(htmlElementNode.childNodes);
+// const rootNode = document.getRootNode();
+// const htmlElementNode = rootNode.childNodes[0];
+// console.log(htmlElementNode.childNodes);
 
+const section2do = ducument.querySelector(".todo-section");
+
+console.log(section2do);
