@@ -73,6 +73,11 @@ a {
     text-align: center ;
 }
 
+.bg-dark {
+    background: #000;
+    color: white;
+}
+
 .form-todo {
    
     min-height: 5vh;

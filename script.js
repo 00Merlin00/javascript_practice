@@ -45,6 +45,8 @@
 // const htmlElementNode = rootNode.childNodes[0];
 // console.log(htmlElementNode.childNodes);
 
-const section2do = ducument.querySelector(".todo-section");
+const section2do = document.querySelector(".todo-section");
 
-console.log(section2do);
+console.log(section2do.classList);
+
+section2do.classList.add("bg-dark");
