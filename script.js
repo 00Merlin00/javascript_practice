@@ -45,8 +45,12 @@
 // const htmlElementNode = rootNode.childNodes[0];
 // console.log(htmlElementNode.childNodes);
 
-const section2do = document.querySelector(".todo-section");
+// const section2do = document.querySelector(".todo-section");
 
-console.log(section2do.classList);
+// console.log(section2do.classList);
 
-section2do.classList.add("bg-dark");
+// section2do.classList.remove("container");
+
+const todo = document.createElement("li");
+
+console.log(todo);
