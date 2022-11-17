@@ -32,13 +32,13 @@
 // }
 // console.log(reverseString("i love kittu"))
 
-// let navItems = document.querySelectorAll("a");
-// console.log(navItems);
-// for(let navItem of navItems){
-//         navItem.style.background = "#fff"
-//         navItem.style.color = "yellow" ;
-//         navItem.style.fontWeight = "bold" ;
-// }
+let navItems = document.querySelectorAll("a");
+console.log(navItems);
+for(let navItem of navItems){
+        navItem.style.background = "#fff"
+        navItem.style.color = "yellow" ;
+        navItem.style.fontWeight = "bold" ;
+}
 
 // 
 // const rootNode = document.getRootNode();
