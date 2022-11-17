@@ -24,13 +24,13 @@
 
 // }
 
-// const show = document.getElementsByClassName("nav-item");
-// console.log(show[0].children[1].innerHTML)
+const show = document.getElementsByClassName("nav-item");
+console.log(show[0].children[1].innerHTML)
 
-// const  reverseString =(a)=>{
-// return a.split(" ").reverse()
-// }
-// console.log(reverseString("i love kittu"))
+const  reverseString =(a)=>{
+return a.split(" ").reverse()
+}
+console.log(reverseString("i love kittu"))
 
 let navItems = document.querySelectorAll("a");
 console.log(navItems);
