@@ -1,8 +1,8 @@
 console.log("sript start");
 
-setInterval(()=>{
-    console.log(Math.random())
-},1000);
-
+//  
 console.log("script end");
 
+function addNo (num1,num2){
+    console.log(num1+num2)
+}
