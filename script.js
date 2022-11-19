@@ -1,4 +1,8 @@
-// Synchronous & Asynchronous Programming 
+console.log("sript start");
 
-setTimeout
+setInterval(()=>{
+    console.log(Math.random())
+},1000);
+
+console.log("script end");
 
