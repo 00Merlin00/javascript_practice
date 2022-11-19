@@ -1,10 +1,6 @@
-console.log("sript start");
+const heading1 = document.querySelector(".heading1");
 
-//  
-console.log("script end");
-
-function addNo (num1,num2){
-    console.log(num1+num2)
-}
-
-addNo(1,4);
+setTimeout(()=>{
+heading1.textContent="heading 1"
+heading1.style.color="violet"
+},1000)
