@@ -1,1 +1,1 @@
-const myPromise = Promise.resolve(5)
+function
