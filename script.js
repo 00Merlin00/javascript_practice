@@ -1,6 +1,5 @@
-const heading1 = document.querySelector(".heading1");
-
-setTimeout(()=>{
-heading1.textContent="heading 1"
-heading1.style.color="violet"
-},1000)
+const URL = "https://jsonplaceholder.typicode.com/posts";
+fetch(URL)
+.then((response)=>{
+console.log(response.json())
+})
